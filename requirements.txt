@@ -1,0 +1,7 @@
+# Runtime dependencies
+selenium==4.43.0
+undetected-chromedriver==3.5.5
+python-dotenv==1.2.2
+
+# Dev dependencies (smoke test)
+pytest==8.4.2

@@ -1,0 +1,49 @@
+# --- Secrets ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environment ---
+venv/
+.venv/
+env/
+
+# --- Build / dist ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Test / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Output (extracted data is not committed) ---
+data/
+
+# --- Legacy debug artifacts (kept locally, not pushed) ---
+legacy/debug/
+*.png
+*.html
+
+# --- Chrome profile (only if a hybrid bot writes it) ---
+perfil_sena/
+
+# --- Logs ---
+*.log
